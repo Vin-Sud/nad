@@ -3,6 +3,7 @@
 A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite, and Flask. The engine sniffs the network in real-time for any suspicious traffic at Layer 2 and Layer 7, logs security events to a local database, and alerts administrators through a web UI and push notifications via Discord webhooks. The goal was to try out something that can help advance my understanding about packets and networking and execute a cybersecurity related project that uses these concepts. Detailed writeup on this project can be found at: https://vnykctf.blogspot.com/2026/09/network-anomaly-detector.html
 
 
+
 ## 📌 Features
 
 * **Packet Engine:** Uses `Scapy` to perform real-time packet capturing.
@@ -10,6 +11,7 @@ A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite
 * **DNS Exfiltration & Beaconing Detection:** Inspects DNS query length (`>45 chars`) to detect potential data exfiltration/tunneling and monitors queries targeting high-risk TLDs (`.xyz`, `.top`, `.tk`).
 * **Real-Time Alerting:** Sends instant alert payloads to a mobile/desktop Discord Webhook.
 * **Web Dashboard:** A dark-mode Flask web application built with Bootstrap to monitor security events in real-time.
+
 
 
 ## 🛠️ Tech Stack
@@ -20,6 +22,7 @@ A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite
 * **Database:** SQLite3
 * **Alerting:** Discord Webhooks (REST API)
 * **Frontend:** HTML5, Bootstrap 5
+
 
 
 ## 📂 Repository Structure
@@ -33,6 +36,7 @@ Project3_NIDS/
 └── templates/
     └── index.html        # Bootstrap UI template
 ```
+
 
 
 ## 🚀 Installation & Setup
@@ -60,6 +64,7 @@ DISCORD_WEBHOOK_URL = "[https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE](http
 ```
 
 
+
 ## 🧪 Testing & Execution
 1. Launch the Engine & Dashboard
 
@@ -85,13 +90,19 @@ dig suspicious-malware-c2-beaconing-domain-test-exfiltration.xyz
 ```
 
 
+
 ## 📊 Proof of Concept & Evidence
 
 Terminal Output:
+
 <img width="851" height="409" alt="Screenshot 2026-09-10 202255" src="https://github.com/user-attachments/assets/2d429412-e2f6-462a-a2cd-1a41c4866aea" />
 
+
 Flask Dashboard:
+
 <img width="1084" height="878" alt="Screenshot 2026-09-10 202317" src="https://github.com/user-attachments/assets/5177fcdc-0cf2-4750-856d-b0040c7c5a6d" />
 
+
 Discord Notifications:
+
 <img width="1302" height="473" alt="Screenshot 2026-09-10 202333" src="https://github.com/user-attachments/assets/96034f5c-cf84-46d5-9575-a58f1d577b75" />
