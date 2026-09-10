@@ -6,7 +6,7 @@ from scapy.all import sniff, IP, IPv6, Ether, DNS, DNSQR
 # --- CONFIGURATION ---
 DB_NAME = "alerts.db"
 # Replace with your actual Discord Webhook URL (or leave blank to test locally)
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1547619515528122548/AYs183yU7EMtBKmLtm_WPk50mRMoHEspg4Q60Q881oWdMEP0m_nx1Py2d0KWHbd9RtMU" 
+DISCORD_WEBHOOK_URL = "[https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE](https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE)"
 
 def send_discord_alert(message):
     """Sends a push notification to Discord if a webhook URL is configured."""
