@@ -31,3 +31,53 @@ Project3_NIDS/
 ├── .gitignore            # Excludes local databases & virtual environments
 └── templates/
     └── index.html        # Bootstrap UI template
+```
+
+
+## 🚀 Installation & Setup
+1. Clone the Repository
+
+```bash
+git clone [https://github.com/Vin-Sud/nad.git](https://github.com/Vin-Sud/nad.git)
+cd nad
+```
+
+2. Set Up Virtual Environment & Dependencies
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+3. Configure Discord Webhook (Optional)
+
+Edit detector.py and assign your Webhook URL:
+
+```Python
+DISCORD_WEBHOOK_URL = "[https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE](https://discord.com/api/webhooks/YOUR_
+```
+<img width="1195" height="707" alt="Screenshot 2026-09-10 202401" src="https://github.com/user-attachments/assets/83fa7ba2-8944-49b3-99cd-3d152b18f9aa" />
+
+## 🧪 Testing & Execution
+1. Launch the Engine & Dashboard
+
+In Terminal 1 (Sniffer Engine):
+
+```Bash
+sudo ./venv/bin/python detector.py
+```
+
+In Terminal 2 (Flask UI):
+
+```Bash
+python app.py
+```
+
+Access the dashboard in your browser at http://127.0.0.1:5000.
+2. Simulate Attack Signals
+Run a suspicious DNS lookup to trigger alert rules:
+
+```Bash
+dig suspicious-malware-c2-beaconing-domain-test-exfiltration.xyz
+```
