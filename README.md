@@ -57,12 +57,11 @@ Edit detector.py and assign your Webhook URL:
 ```Python
 DISCORD_WEBHOOK_URL = "[https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE](https://discord.com/api/webhooks/YOUR_
 ```
-<img width="1195" height="707" alt="Screenshot 2026-09-10 202401" src="https://github.com/user-attachments/assets/83fa7ba2-8944-49b3-99cd-3d152b18f9aa" />
 
 ## 🧪 Testing & Execution
 1. Launch the Engine & Dashboard
 
-In Terminal 1 (Sniffer Engine):
+In Terminal 1 (Sniffer):
 
 ```Bash
 sudo ./venv/bin/python detector.py
@@ -75,6 +74,7 @@ python app.py
 ```
 
 Access the dashboard in your browser at http://127.0.0.1:5000.
+
 2. Simulate Attack Signals
 Run a suspicious DNS lookup to trigger alert rules:
 
