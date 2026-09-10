@@ -1,6 +1,6 @@
 # Network Anomaly Detector
 
-A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite, and Flask. The engine sniffs the network in real-time for any suspicious traffic at Layer 2 and Layer 7, logs security events to a local database, and alerts administrators through a web UI and push notifications via Discord webhooks. The goal was to try out something that can help advance my understanding about packets and networking and execute a cybersecurity related project that uses these concepts.
+A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite, and Flask. The engine sniffs the network in real-time for any suspicious traffic at Layer 2 and Layer 7, logs security events to a local database, and alerts administrators through a web UI and push notifications via Discord webhooks. The goal was to try out something that can help advance my understanding about packets and networking and execute a cybersecurity related project that uses these concepts. Detailed writeup on this project can be found at: https://vnykctf.blogspot.com/2026/09/network-anomaly-detector.html
 
 ## 📌 Features
 
