@@ -10,7 +10,6 @@ A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite
 * **Real-Time Alerting:** Sends instant alert payloads to a mobile/desktop Discord Webhook.
 * **Web Dashboard:** A dark-mode Flask web application built with Bootstrap to monitor security events in real-time.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -21,7 +20,6 @@ A lightweight Network Anomaly Detection System built using Python, Scapy, SQLite
 * **Alerting:** Discord Webhooks (REST API)
 * **Frontend:** HTML5, Bootstrap 5
 
----
 
 ## 📂 Repository Structure
 
