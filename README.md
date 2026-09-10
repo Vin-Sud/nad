@@ -84,6 +84,11 @@ dig suspicious-malware-c2-beaconing-domain-test-exfiltration.xyz
 
 ## 📊 Proof of Concept & Evidence
 
+Terminal Output:
 <img width="851" height="409" alt="Screenshot 2026-09-10 202255" src="https://github.com/user-attachments/assets/2d429412-e2f6-462a-a2cd-1a41c4866aea" />
+
+Flask Dashboard:
 <img width="1084" height="878" alt="Screenshot 2026-09-10 202317" src="https://github.com/user-attachments/assets/5177fcdc-0cf2-4750-856d-b0040c7c5a6d" />
+
+Discord Notifications:
 <img width="1302" height="473" alt="Screenshot 2026-09-10 202333" src="https://github.com/user-attachments/assets/96034f5c-cf84-46d5-9575-a58f1d577b75" />
